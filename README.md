@@ -42,6 +42,7 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 **PROGRAM**
 
 ```
+SYNCHRONOUS-UP-COUNTER:
 module ex11(out,clk,rst);
 input clk,rst;
 output reg [3:0]out;
@@ -54,7 +55,20 @@ begin
 end
 endmodule 
 ```
-
+```
+SYNCHRONOUS-DOWN-COUNTER:
+module ex12(out,clk,rst);
+input clk,rst;
+output reg [3:0]out;
+always @ (posedge clk)
+begin
+   if(rst)
+     out<=0;
+   else 
+     out <= out-1;
+end
+endmodule 
+```
 **RTL LOGIC UP COUNTER**
 <img width="1298" height="753" alt="Screenshot 2025-12-10 112220" src="https://github.com/user-attachments/assets/31455ede-f255-48b7-8408-ffeda2bf610c" />
 
