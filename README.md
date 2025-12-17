@@ -70,11 +70,26 @@ begin
 end
 endmodule 
 ```
-**RTL LOGIC UP COUNTER**
+**RTL LOGIC UP AND DOWN COUNTER**
+
+SYNCHRONOUS-UP-COUNTER:
+
 <img width="1298" height="753" alt="Screenshot 2025-12-10 112220" src="https://github.com/user-attachments/assets/31455ede-f255-48b7-8408-ffeda2bf610c" />
 
-**TIMING DIAGRAM FOR IP COUNTER**
+SYNCHRONOUS-DOWN-COUNTER:
+
+<img width="1237" height="694" alt="image" src="https://github.com/user-attachments/assets/0c24c270-f05c-4fd3-bae5-2a15f8b39abb" />
+
+**TIMING DIAGRAM FOR UP AND DOWN COUNTER**
+
+SYNCHRONOUS-UP-COUNTER:
+
 <img width="1918" height="1024" alt="Screenshot 2025-12-10 112522" src="https://github.com/user-attachments/assets/b19c221e-c11a-4541-a1e2-bac6bbbd533b" />
+
+SYNCHRONOUS-DOWN-COUNTER:
+
+<img width="1920" height="1131" alt="image" src="https://github.com/user-attachments/assets/0ea8711b-3fbc-48be-aee6-ad01a91a174b" />
+
 
 **TRUTH TABLE**
 
